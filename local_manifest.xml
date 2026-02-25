@@ -3,7 +3,7 @@
 
   <remote
     name = "codeberg"
-fetch = "https://codeberg.org/" />
+fetch="https://codeberg.org/" />
 
   <!-- Device tree for Poco F4 munch (your fork) -->
   <project

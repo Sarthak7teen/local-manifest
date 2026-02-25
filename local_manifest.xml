@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote
+        name="github"
+        fetch="https://github.com/" />
+  
+  <!-- Device tree for Poco F4 munch (your fork) -->
+  <project
+      path="device/xiaomi/munch"
+      name="Sarthak7teen/android_device_xiaomi_munch"
+      remote="github"
+      revision="16-qpr1" />
+
+   <!-- Kernel tree (your fork) -->
+  <project
+      path="kernel/xiaomi/munch"
+      name="Sarthak7teen/android_kernel_xiaomi_munch"
+      remote="github"
+      revision="404" />
+  
+  <!-- Vendor blobs for munch (your fork) -->
+  <project
+      path="vendor/xiaomi/munch"
+      name="Sarthak7teen/android_vendor_xiaomi_munch"
+      remote="github"
+      revision="16-qpr1" />
+
+<!-- Xiaomi firmware -->
+<project
+    name="munch-devs/android_vendor_xiaomi_munch-firmware"
+    path="vendor/xiaomi/munch-firmware"
+    remote="codeberg"
+    revision="16-qpr1" />
+
+<!-- Xiaomi hardware (contains hardware/motorola/sepolicy/qti/SEPolicy.mk) -->
+<project
+    name="Sarthak7teen/android_hardware_xiaomi"
+    path="hardware/xiaomi"
+    remote="github"
+    revision="lineage-22.2" />
+
+   <!-- dolby for xiaomi -->
+  <project
+    name="Sarthak7teen/android_hardware_dolby"
+    path="hardware/dolby"
+    remote="github"
+    revision="main" />
+
+
+  <!-- MiuiCam Common -->
+  <project
+    name="munch-devs/android_vendor_xiaomi_miuicamera"
+    path="vendor/xiaomi/miuicamera"
+    remote="codeberg"
+    revision="16-qpr1" />
+</manifest>

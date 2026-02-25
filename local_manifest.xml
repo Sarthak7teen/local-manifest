@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote
-        name="github"
-        fetch="https://github.com/" />
-  
   <!-- Device tree for Poco F4 munch (your fork) -->
   <project
       path="device/xiaomi/munch"
@@ -40,18 +36,4 @@
     remote="github"
     revision="lineage-22.2" />
 
-   <!-- dolby for xiaomi -->
-  <project
-    name="Sarthak7teen/android_hardware_dolby"
-    path="hardware/dolby"
-    remote="github"
-    revision="main" />
-
-
-  <!-- MiuiCam Common -->
-  <project
-    name="munch-devs/android_vendor_xiaomi_miuicamera"
-    path="vendor/xiaomi/miuicamera"
-    remote="codeberg"
-    revision="16-qpr1" />
 </manifest>
